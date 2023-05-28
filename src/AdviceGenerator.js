@@ -33,7 +33,7 @@ getData().then(data=>setadviceObj(data.slip))
            <h1 className='advice'>"{adviceObj?.advice || '..isLoadind'}"</h1>
             <img  src={dividerLine} alt='divider-line'/>
          
-           <button className="diceButton"onClick={handleChange} aria-label='advice-generator-button'><img src={dice} divider-line/></button>
+           <button className="diceButton"onClick={handleChange} aria-label='advice-generator-button'><img src={dice} alt='button-img'/></button>
         </main>
     )
 }
