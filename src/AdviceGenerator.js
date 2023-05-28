@@ -31,9 +31,9 @@ getData().then(data=>setadviceObj(data.slip))
         <main className='container'>
            <p className='id'>ADVICE  #{adviceObj?.id || '..isLoading'}</p>
            <h1 className='advice'>"{adviceObj?.advice || '..isLoadind'}"</h1>
-            <img  src={dividerLine} />
+            <img  src={dividerLine} alt='divider-line'/>
          
-           <button className="diceButton"onClick={handleChange} aria-label='advice-generator-button'><img src={dice} /></button>
+           <button className="diceButton"onClick={handleChange} aria-label='advice-generator-button'><img src={dice} divider-line/></button>
         </main>
     )
 }

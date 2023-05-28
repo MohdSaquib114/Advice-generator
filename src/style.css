@@ -46,6 +46,9 @@ margin-bottom: 2.2em;
       margin: 25% auto;
 
     }
+    .diceButton{
+        right:1px ;
+    }
     .mobDivider{
         display: block;
     }
